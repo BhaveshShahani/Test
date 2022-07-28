@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="./style/index.css">
+  </head>
+  <body onload="load">
+    <div id="navbar">
+    </div>
+
+    <div id="master">
+      <div id="sidebar">
+        <h2>Countries</h2>
+        <h4 id="in" onclick="getdata(this.id)">India</h4>
+        <h4 id="ch" onclick="getdata(this.id)">China</h4>
+        <h4 id="us" onclick="getdata(this.id)">USA</h4>
+        <h4 id="uk" onclick="getdata(this.id)">UK</h4>
+        <h4 id="nz" onclick="getdata(this.id)">New Zeland</h4>
+      </div>
+      <!-- Give Navbar with id "navbar"  -->
+      <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+      <!-- Sidebar will have id "sidebar"  -->
+      <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+      india :- in
+      china :- ch
+      usa :- us
+      uk : uk
+      Newzeland :- nz -->
+   <div id="results"></div>
+      <!-- Append results inside div with id "results"  -->
+      <!-- News divs will have class "news"  -->
+  
+    </div>
+      </body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
+<script type="module">
+import getdata from './scripts/index.js'
+window.getdata= getdata;
+</script>

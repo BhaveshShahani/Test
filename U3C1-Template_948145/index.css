@@ -1,0 +1,11 @@
+#show_products{
+    text-decoration: none;
+    color: red;
+}
+#product_form>input{
+    width: 20%;
+    height: 25px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}

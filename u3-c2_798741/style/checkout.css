@@ -1,0 +1,13 @@
+*{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+#navbar{
+    border: solid;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+    height: 40px;
+    
+}

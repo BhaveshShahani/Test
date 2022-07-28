@@ -1,0 +1,28 @@
+*{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+#navbar{
+    border: solid;
+    justify-content: space-around;
+    display: flex;
+    align-items:center;
+    height: 40px;
+    
+}
+/* #cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: auto;
+    gap: 10px;
+    padding: 10px;
+}
+#cart>div{
+
+    width: 80%;
+    text-align: center;
+}
+#cart>div>img{
+    width: 85%;
+} */
